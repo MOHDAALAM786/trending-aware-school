@@ -36,3 +36,18 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
   }
 }
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Mobile menu styling */
+@media (max-width: 767px) {
+  .mobile-menu {
+    right: 0;
+    width: 75vw; /* Adjust width as needed */
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  }
+}

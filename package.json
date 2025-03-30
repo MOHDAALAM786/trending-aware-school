@@ -1,5 +1,6 @@
 {
   "name": "trending-aware-school",
+  "homepage": "https://trending-aware-school.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
